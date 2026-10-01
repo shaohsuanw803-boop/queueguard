@@ -4,9 +4,9 @@
 
 Roadworks queues grow upstream, often by several kilometres an hour. Warning signs are set out before the shift and stay put, so within minutes the queue tail sits behind them and drivers at 100 km/h meet stopped traffic unwarned. QueueGuard is the software layer that links radar, variable message signs (VMS), variable speed limit signs (VSL) and alerts so the warning follows the queue, plus a site guideline generator.
 
-**Live demo:** open `index.html` (GitHub Pages link below) · **Evaluation:** `eval.html` · **Site guideline generator:** `guideline.html` · **Demo video:** `media/queueguard-demo.mp4`
+**Live demo:** [Open QueueGuard](https://shaohsuanw803-boop.github.io/queueguard/) · **Evaluation:** [View results](https://shaohsuanw803-boop.github.io/queueguard/eval.html) · **Site guideline generator:** [Plan a site](https://shaohsuanw803-boop.github.io/queueguard/guideline.html) · **Demo video:** [Watch the demo](https://shaohsuanw803-boop.github.io/queueguard/media/queueguard-demo.mp4) · **Source code:** [GitHub](https://github.com/shaohsuanw803-boop/queueguard)
 
-**Final pitch (Team noname):** presenter deck `pitch/` (arrow keys; the 42 s demo clip plays on slide 7; N = notes, T = timer, A = appendix) · PDF `docs/QueueGuard_final_pitch_Team_noname.pdf` · clip `media/queueguard-pitch-clip.mp4`
+**Final pitch (Team noname):** 23-slide [presenter deck](https://shaohsuanw803-boop.github.io/queueguard/pitch/) (four illustrated story slides after the cover; arrow keys; the 42 s demo clip plays on slide 11; N = notes, including the updated bilingual opening, T = timer, A = appendix) · [PDF](https://shaohsuanw803-boop.github.io/queueguard/docs/QueueGuard_final_pitch_Team_noname.pdf) · [clip](https://shaohsuanw803-boop.github.io/queueguard/media/queueguard-pitch-clip.mp4)
 
 ## Why this design
 
@@ -71,7 +71,7 @@ VSL values must stay within the approved traffic management plan and speed-zone 
 
 ## Run it
 
-No build step and no install. Open `index.html` in any modern browser (or the GitHub Pages site).
+No build step and no install. Open `index.html` in any modern browser, or use the [published site](https://shaohsuanw803-boop.github.io/queueguard/).
 
 * `index.html` — side-by-side live simulation (static signs vs QueueGuard), roadside devices, time–space diagram, alerts, fail-safe toggle
 * `eval.html` — full results; **Re-run in this browser** repeats the experiment
@@ -98,3 +98,5 @@ docs/ASSUMPTIONS.md
 * Minderhoud & Bovy (2001), Extended time-to-collision measures for road traffic safety assessment, *Accident Analysis & Prevention* 33.
 
 MIT licence.
+
+Original project: [Morlan1hp/queueguard](https://github.com/Morlan1hp/queueguard). Copyright (c) 2026 QueueGuard team. This fork publishes the updated Team noname presentation.
